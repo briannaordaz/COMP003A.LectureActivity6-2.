@@ -3,7 +3,7 @@ namespace COMP003A.LectureActivity6_2;
 /// <summary>
 /// Represents a circle with a specific area calculation.
 /// </summary>
-public class Circle
+public class Circle : Shape
 {
     // Auto-implemented property for the radius of the circle
     public double Radius { get; set; }
